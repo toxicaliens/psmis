@@ -1,0 +1,105 @@
+################################################################################
+# Define the various constants that will be used throughout the system.
+################################################################################
+
+basic:
+
+   ### User Processor
+   Del255: Del255
+
+   ### role processor
+   Del258: Del258
+
+    ### view processor
+   Del175: Del175
+   add_setting: add_setting
+   edit_setting: edit_setting
+   delete_setting: delete_setting
+   delete_selected_setting: delete_selected_setting 
+
+
+   ### Action Processor
+   Del180: Del180
+
+   ### manage menu processor
+   Del262: Del262
+
+   INBOX: INBOX
+
+   add_action: add_action
+   add_agent: add_agent
+
+   add_menu_item: add_menu_item
+   add_role: add_role
+
+   add_user: add_user
+
+   add_view: add_view
+   ed_action: ed_action
+   edit_action: edit_action
+
+   edit_menu_details: edit_menu_details
+
+   edit_user: edit_user
+   edit_role: edit_role
+   edit_view: edit_view
+   manage_actions: manage_actions
+   manage_menu: manage_menu
+   manage_views: manage_views
+
+   # masterfile module
+   add_masterfile: add_masterfile
+   edit_masterfile: edit_masterfile
+
+   add_userlevel: add_userlevel
+
+   attachtocustomer: attachtocustomer
+   changecategory: changecategory
+   changeconfig: changeconfig
+   change_password: change_password
+   clearfromamalgamation: clearfromamalgamation
+
+   reset_password: reset_password
+   reset_pwd: reset_pwd
+
+   add_query: add_query
+
+   #### Academics Module
+   add_subject: add_subject
+   edit_subject: edit_subject
+   delete_subject: delete_subject
+   delete_selected_subjects: delete_selected_subjects
+
+   #### System Details
+   add_sys_details: add_sys_details
+
+   #### Masterfile
+   add_masterfile: add_masterfile
+   edit_masterfile: edit_masterfile
+   delete_masterfile: delete_masterfile
+   Main: MAIN
+   Home: HOME
+   Working: WORKING
+
+   #### Roles
+   Teacher: TEACHER
+   Subordinate: SS
+   Pupil: PUPIL
+   Guardian: GUARDIAN
+
+   #### School
+   add_class: add_class
+   del_class: del_class
+   add_stream: add_stream
+   del_stream: del_stream
+   edit_streams: edit_streams
+   delete_selected_stream: delete_selected_stream
+   delete_stream: delete_stream
+   edit_stream: edit_stream
+    
+   #### Contact Types
+   add_contact: add_contact
+   edit_contact: edit_contact
+   delete_contact: delete_contact
+   delete_selected_contacts: delete_selected_contacts
+   Main: MAIN

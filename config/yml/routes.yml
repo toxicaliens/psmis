@@ -1,0 +1,65 @@
+################################################################################
+# This file will be used to define the various routes that the app will have
+################################################################################
+
+## Page not found
+404: config/template/sys-pages/404.php
+
+## Access Denied
+access_denied: config/template/sys-pages/access_denied.php
+
+## Home page
+home: config/template/sys-pages/home-layout.php
+
+## Login url
+login: src/login.php
+
+## Reset Password Url
+reset_pass: src/reset_password.php
+
+## Dashboard
+dashboard: src/dashboard_module/dashboard.de
+
+## MASTERFILE
+registration: src/masterfile_module/add_masterfile.php
+address_types: src/masterfile_module/manage_address_types.php
+contact_types: src/masterfile_module/manage_contact_types.php
+masterfile: src/masterfile_module/masterfile.php
+
+#### User Management Module
+add_user: src/users_module/add_user.php
+all_users: src/users_module/users.php
+edit_user: src/users_module/edit_user.php
+view_prof: src/users_module/view_profile.php
+all_roles: src/users_module/all_roles.php
+add_role: src/users_module/add_role.php
+edit_role: src/users_module/edit_role.php
+del_role: src/users_module/del_role.php
+audit_trail: src/users_module/master_audit_trail.php
+manage_views: src/users_module/manage_views.php
+edit_action: src/users_module/edit_actions.php
+client_users: src/users_module/client_users.php
+
+####: System Manager Module
+all_views: src/system_manager/all_views.php
+add_view: src/system_manager/add_view.php
+edit_view: src/system_manager/edit_view.php
+all_actions: src/system_manager/all_actions.php
+add_action: src/system_manager/add_action.php
+ed_action: src/system_manager/ed_action.php
+add_item: src/system_manager/add_menu_item.php
+menu: src/system_manager/menu.php
+manage_menu: src/system_manager/manage_menu_items.php
+edit_menu: src/system_manager/edit_menu.php
+system_details: src/system_manager/manage_sys_details.php
+
+
+####: School details
+forms: src/school_details/manage_forms.php
+manage_streams: src/school_details/manage_streams.php
+
+####: Academics Module
+subjects: src/academics_module/subjects.php
+grades: src/academics_module/grade.php
+overall_grades: src/academics_module/overall_grade.php
+allocate_class: src/academics_module/class_teacher_allocation.php

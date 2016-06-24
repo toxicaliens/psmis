@@ -1,0 +1,20 @@
+################################################################################ 
+# This file will be used to define various packages to include in the app
+################################################################################
+
+basic:
+   - src/connection/config.php
+   - src/library.php
+
+post:
+   - src/users_module/user_processor.php
+   - src/users_module/role_processor.php
+   - src/system_manager/view_processor.php
+   - src/system_manager/action_processor.php
+   - src/system_manager/manage_views_processor.php
+   - src/system_manager/manage_actions_processor.php
+   - src/system_manager/menu_processor.php
+   - src/system_manager/manage_menu_processor.php
+   - src/school_details/school_details_processor.php
+   - src/academics_module/academic_processor.php
+   - src/masterfile_module/masterfile_processor.php
